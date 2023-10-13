@@ -1,0 +1,27 @@
+.PhoneItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.DisplayPhone{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Image {
+  width: 600px;
+  height: 600px;
+  object-fit: contain;
+}
+
+.PhoneDetails > p{
+  text-align: justify;
+  margin-bottom: 8px;
+  width: 500px;
+}
+
+.BackBtn {
+  width: 50px;
+}

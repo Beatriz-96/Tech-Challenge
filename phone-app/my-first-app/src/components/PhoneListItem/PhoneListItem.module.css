@@ -1,0 +1,20 @@
+.PhoneListItem {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 200ms, transform 200ms;
+}
+
+.PhoneListItem:hover {
+  box-shadow: 0 9px 14px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.Image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}

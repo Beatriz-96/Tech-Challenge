@@ -1,0 +1,18 @@
+.PhoneList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Title {
+  margin-bottom: 48px;
+}
+
+.List {
+  width: 100%;
+  max-width: 400px;
+}
+
+.ListItem:not(:first-child) {
+  margin-top: 16px;
+}
